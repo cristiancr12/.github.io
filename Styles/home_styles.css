@@ -3,8 +3,6 @@
     background-color: white;
 } */
 
-
-style
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
@@ -13,9 +11,7 @@ h5 {text-align: center;}
 h6 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
-style
 
-style
 a:link {
   color: Blue;
   background-color: transparent;
@@ -36,7 +32,23 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-style
+
+.grid-container {
+  display: grid ;
+  row-gap: 0px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 0px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 
 
 /* Font Sizes */
