@@ -58,6 +58,9 @@ button{
     animation: glowing 1300ms infinite;
 }
 
+button1 {
+    color: white;
+}
 
 
 @keyframes glowing {
