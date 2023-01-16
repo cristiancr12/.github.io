@@ -74,13 +74,6 @@ button{
     box-shadow: 0 0 5px #2ba805;
   }
 }
-.button {
-  animation: glowing 1300ms infinite;
-}
-
-
-
-
 
 button:hover{
     background-color: rgb(177, 91, 82);
