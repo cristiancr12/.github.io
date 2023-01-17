@@ -25,12 +25,12 @@ a:visited {
 a:hover {
   color: red;
   background-color: transparent;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 a:active {
   color: yellow;
   background-color: transparent;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .grid-container {
