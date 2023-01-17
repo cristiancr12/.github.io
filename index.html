@@ -42,7 +42,7 @@
             <h3>Disfruta de nuestros especiales de tatuajes<br>pequenos a tan solos $60 dolares.</h3>
             <form action= "Gallery.html" target="_blank">
                  <button>Galeria de tatuajes pequenos.</button>
-            </frorm>
+                 </frorm>
         </div>
         
         <div class="container">
@@ -94,4 +94,33 @@
 </footer>
 
 </body>
+
+<script> 
+document.querySelector('a').addEventListener('click', function(e) {
+    e.preventDefault();
+  
+    var yourAge = prompt("Please enter your age: ")
+    
+    if (yourAge < 21) {
+      alert("Users under the age of 21 cannot access this page");
+      location.href = ("shop.html");
+    }
+  
+    if (yourAge >= 21) {
+      alert("Enjoy!");
+      document.querySelector('.board').classList.add('showme');
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {        
+          document.getElementById("content").innerHTML = xhttp.responseText;
+        }
+      };
+      xhttp.open("GET", "index.html", true);
+      xhttp.send();
+    }
+  
+  })
+</script>
+
+
 </html>
