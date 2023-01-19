@@ -1,7 +1,11 @@
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/070/892/small/abstract-banner-design-template-black-glossy-with-gold-line-and-lighting-effect-on-dark-background-and-texture-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+background-attachment: fixed;
+}
 
-/* body{
-    background-color: white;
-} */
 
 h1 {text-align: center;}
 h2 {text-align: center;}
@@ -48,6 +52,18 @@ a:active {
   font-size: 30px;
   text-align: center;
 }
+
+/* Font Colors*/
+h1{color: white;}
+h2{color: white;}
+h3{color: white;}
+h4{color: white;}
+h5{color: white;}
+h6{color: white;}
+p{color: white;}
+footer{color: white;}
+ul{color: white;}
+
 
 /* Font Sizes */
 h1{ font-size: 3.5em;}
