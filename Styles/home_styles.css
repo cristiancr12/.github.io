@@ -1,10 +1,7 @@
 body{
-  background-image: url('https://wallpaperaccess.com/full/38020.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-background-attachment: fixed;
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/09/03/skull-tattoo.jpg')
 }
+
 
 
 h1 {text-align: center;}
@@ -17,12 +14,12 @@ p {text-align: center;}
 div {text-align: center;}
 
 a:link {
-  color: Blue;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: blueviolet;
   background-color: transparent;
   text-decoration: none;
 }
@@ -32,7 +29,7 @@ a:hover {
   /* text-decoration: underline; */
 }
 a:active {
-  color: yellow;
+  color: white;
   background-color: transparent;
   /* text-decoration: underline; */
 }
@@ -108,11 +105,8 @@ button:hover{
     background-color: rgb(177, 91, 82);
 }
 
-header {
-  background-color: black;
-}
+/* header { }*/
 
 /* nav{    
 
 } */
-
