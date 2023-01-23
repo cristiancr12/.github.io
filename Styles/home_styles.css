@@ -1,9 +1,5 @@
 body{
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/09/03/skull-tattoo.jpg')
+  background-color: black;
 }
 
 a:link {
@@ -25,6 +21,11 @@ a:active {
   color: white;
   background-color: transparent;
   /* text-decoration: underline; */
+}
+
+.container{
+  max-width: 1400px;
+  margin: auto;
 }
 
 .grid-container {
