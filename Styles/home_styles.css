@@ -3,9 +3,8 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('https://wallpaper.dog/large/10808356.jpg')
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/09/03/skull-tattoo.jpg')
 }
-
 
 a:link {
   color: blue;
@@ -29,17 +28,18 @@ a:active {
 }
 
 .grid-container {
+  gap: 100px;
   display: grid ;
   row-gap: 0px;
   grid-template-columns: auto auto auto;
-  background-color: black;
+  background-color: transparent;
   padding: 0px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
   font-size: 30px;
   text-align: center;
 }
