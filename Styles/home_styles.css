@@ -1,5 +1,9 @@
 body{
   background-color: darkcyan;
+  background-image: url("/malabaresstudio.github.io/Images/Background\ Web.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container{
