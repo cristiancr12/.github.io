@@ -1,8 +1,8 @@
 body{
   background-image: url("../Images/backgroundWhite2.PNG");
-  background-color: moccasin;
+  background-color: grey;
   background-repeat: no-repeat;
-  background-size: 76%;
+  background-size: 30cm;
   background-attachment: fixed;
   background-position: 50%;
 }
