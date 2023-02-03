@@ -38,7 +38,7 @@ h3{color: black;}
 h4{color: black;}
 h5{color: black;}
 h6{color: black;}
-p{color: black;}
+p{color: white;}
 footer{color: black;}
 ul{color: darkviolet;}
 
@@ -70,12 +70,6 @@ button{
   animation: glowing 1300ms infinite;
 }
 
-
-
-
-
-
-
 button1 {
   color: white;
 }
@@ -83,6 +77,60 @@ button1 {
 button:hover{
   background-color: rgb(177, 91, 82);
 }
+
+
+
+
+#nuestros-estilos{
+  background-color: rgb(30,30,30);
+  color: white;
+}
+
+#nuestros-estilos .container{
+  padding: 50px 12px;
+}
+
+
+#nuestros-estilos .carta{
+
+}
+
+.carta:first-child{
+  background-image: linear-gradient(
+    0deg,
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+  )
+  ,url("/Images/black&grey3.JPG");
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+    0deg,
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+  )
+  ,url("/Images/japanese3.JPG")
+}
+
+.carta:nth-child(3){
+  background-image: linear-gradient(
+    0deg,
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+  )
+  ,url("/Images/tribal3.JPG")
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Blinking */
 /* @keyframes glowing {
