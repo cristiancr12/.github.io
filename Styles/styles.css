@@ -81,13 +81,16 @@ button:hover{
 
 
 
+.color-acento{ color: orangered;
+}
+
 #nuestros-estilos{
   background-color: rgb(30,30,30);
   color: white;
 }
 
 #nuestros-estilos .container{
-  padding: 50px 12px;
+  padding: 5px 10px;
 }
 
 
