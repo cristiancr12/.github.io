@@ -1,8 +1,10 @@
 body{
-  background-image: url("../Images/background_wallpaper.jpg");
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
+  background-image: url("../Images/backgroundWhite2.PNG");
+  background-color: moccasin;
+  background-repeat: no-repeat;
+  background-size: 76%;
   background-attachment: fixed;
+  background-position: 50%;
 }
 
 .container{
