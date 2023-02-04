@@ -96,6 +96,7 @@ button:hover{
 #nuestros-estilos{
   background-color: rgb(30,30,30);
   color: white;
+  border-radius: 50px;
 }
 
 /* #nuestros-estilos .container{ */
@@ -108,7 +109,7 @@ button:hover{
   background-size: cover;
   padding: 10px;
   /* margin: 50px; */
-  border-radius: 20px;
+  border-radius: 100px;
   text-align: center;
 }
 
