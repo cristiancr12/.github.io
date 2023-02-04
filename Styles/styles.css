@@ -99,17 +99,17 @@ button:hover{
 }
 
 #nuestros-estilos .container{
-  padding: 10px 50px;
-  margin: 20px;
+  /* padding: 100px 50px; */
+  /* margin: 20px; */
 }
 
 
 #nuestros-estilos .carta{
   background-position: center center;
   background-size: cover;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
+  padding: 10px;
+  /* margin: 50px; */
+  border-radius: 20px;
   text-align: center;
 }
 
