@@ -29,8 +29,6 @@ body{
   text-align: center;
 }
 
-/* .color-acento{ color: black; } */
-
 /* Font Colors*/
 h1{color: black;}
 h2{color: black;}
@@ -88,9 +86,11 @@ button:hover{
 
 
 
-
-
 .color-acento{ color: orangered;
+}
+
+#nuestros-estilos p{
+  display: none;
 }
 
 #nuestros-estilos{
@@ -99,12 +99,18 @@ button:hover{
 }
 
 #nuestros-estilos .container{
-  padding: 5px 10px;
+  padding: 10px 50px;
+  margin: 20px;
 }
 
 
 #nuestros-estilos .carta{
-
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .carta:first-child{
@@ -113,7 +119,7 @@ button:hover{
     rgb(0,0,0,0.5),
     rgb(0,0,0,0.5)
   )
-  ,url("/Images/black&grey3.JPG");
+  ,url("/Images/black&grey4.JPG");
 }
 
 .carta:nth-child(2){
@@ -122,7 +128,7 @@ button:hover{
     rgb(0,0,0,0.5),
     rgb(0,0,0,0.5)
   )
-  ,url("/Images/japanese3.JPG")
+  ,url("/Images/japanese1.JPG")
 }
 
 .carta:nth-child(3){
@@ -131,7 +137,7 @@ button:hover{
     rgb(0,0,0,0.5),
     rgb(0,0,0,0.5)
   )
-  ,url("/Images/tribal3.JPG")
+  ,url("/Images/tribal1.JPG")
 }
 
 
