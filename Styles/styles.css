@@ -76,16 +76,7 @@ button:hover{
   background-color: rgb(177, 91, 82);
 }
 
-
-
-
-
-
-
-
-
-
-
+/* Nuestros Estilos */
 .color-acento{ color: orangered;
 }
 
@@ -139,16 +130,6 @@ button:hover{
   )
   ,url("../Images/TribalNE3.JPG")
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Blinking */
 /* @keyframes glowing {
