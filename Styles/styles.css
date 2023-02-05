@@ -5,6 +5,10 @@ body{
   background-repeat: no-repeat;
 }
 
+header p{
+  font-size: xx-large;
+}
+
 .container{
   max-width: 1400px;
   margin: auto;
