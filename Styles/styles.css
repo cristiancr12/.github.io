@@ -1,8 +1,8 @@
 body{
-  background-image: url("../Images/blackbackground.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../Images/backgroundwallpaper.jpg");
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container{
