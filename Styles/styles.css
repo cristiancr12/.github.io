@@ -12,6 +12,9 @@ body{
   margin: auto;
 }
 
+
+
+
 .grid-container {
   gap: 100px;
   display: grid ;
@@ -28,6 +31,9 @@ body{
   font-size: 30px;
   text-align: center;
 }
+
+
+
 
 /* Font Colors*/
 h1{color: black;}
@@ -46,7 +52,6 @@ h2{ font-size: 2.5em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
-
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
@@ -56,6 +61,7 @@ h6 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
 
+/* Button */
 button{
   font-size: 1em;
   font-weight: lighter;
@@ -67,11 +73,9 @@ button{
   background-color: orangered;
   animation: glowing 1300ms infinite;
 }
-
 button1 {
   color: white;
 }
-
 button:hover{
   background-color: rgb(177, 91, 82);
 }
