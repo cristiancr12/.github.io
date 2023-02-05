@@ -83,31 +83,32 @@ button:hover{
 /* Nuestros Estilos */
 .color-acento{ color: orangered;
 }
-
+#nuestros-estilos h1{
+  margin: 0;
+}
 #nuestros-estilos p{
   display: none;
 }
-
 #nuestros-estilos{
-  background-color: rgb(30,30,30);
+  /* background-color: rgb(30,30,30); */
   color: white;
   border-radius: 90px;
+  background-color: transparent;
+  margin: 0px;
 }
-
-/* #nuestros-estilos .container{ */
+#nuestros-estilos .container{
+  margin: 0px;
   /* padding: 100px 50px; */
-  /* margin: 20px; */
 
-
+}
 #nuestros-estilos .carta{
   background-position: center center;
   background-size: cover;
   padding: 10px;
-  /* margin: 50px; */
+  margin: 20px;
   border-radius: 100px;
   text-align: center;
 }
-
 .carta:first-child{
   background-image: linear-gradient(
     0deg,
@@ -116,7 +117,6 @@ button:hover{
   )
   ,url("../Images/Black&GreyNE1.jpg");
 }
-
 .carta:nth-child(2){
   background-image: linear-gradient(
     0deg,
@@ -125,7 +125,6 @@ button:hover{
   )
   ,url("../Images/JapanesseNE2.JPG")
 }
-
 .carta:nth-child(3){
   background-image: linear-gradient(
     0deg,
@@ -134,17 +133,6 @@ button:hover{
   )
   ,url("../Images/TribalNE3.JPG")
 }
-
-
-
-
-
-#caracteristicas .container{
-  
-}
-
-
-
 
 
 
