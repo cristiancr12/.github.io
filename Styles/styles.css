@@ -30,9 +30,6 @@ body{
   text-align: center;
 }
 
-
-
-
 /* Font Colors*/
 h1{color: white;}
 h2{color: white;}
@@ -86,7 +83,6 @@ button:hover{
   margin: 20px;
 }
 #nuestros-estilos p{
-  display: ;
   color: red;
 }
 #nuestros-estilos{
@@ -133,8 +129,6 @@ button:hover{
   )
   ,url("../Images/TribalNE3.JPG")
 }
-
-
 
 /* Blinking */
 /* @keyframes glowing {
