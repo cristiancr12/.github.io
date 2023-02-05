@@ -77,17 +77,16 @@ button:hover{
 }
 
 /* Nuestros Estilos */
-.color-acento{ color: white;
+.color-acento{ color: red;
 }
 #nuestros-estilos h1{
   margin: 20px;
 }
 #nuestros-estilos p{
-  color: red;
+  color: whitesmoke;
 }
 #nuestros-estilos{
   /* background-color: rgb(30,30,30); */
-  color: white;
   border-radius: 90px;
   background-color: transparent;
   margin: 0px;
