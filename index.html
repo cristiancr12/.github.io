@@ -12,14 +12,12 @@
     <header>
         <div clas="container">
             <p><a href="index.html">Malabares Studio</a></p>
-            <h3><p>
-                <nav>
-                    <a href="Shop.html">Shop</a>
-                    <a href="Gallery.html">Gallery</a>
-                    <a href="Artists.html">Artists</a>
-                    <a href="Policy.html">Policy</a>
-                </nav>  
-            </h3></p>
+            <h3>
+                <a href="Shop.html">Shop</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Artists.html">Artists</a>
+                <a href="Policy.html">Policy</a>
+            </h3>
         </div>
     </header>
     
@@ -38,7 +36,7 @@
             <h3>Disfruta de nuestros especiales de tatuajes pequenos a tan solos $60 dolares.</h3>
             <form action= "Gallery.html" target="_blank">
                  <button>Galeria de tatuajes pequenos.</button>
-                 </frorm>
+                 </form>
         </div>
     </section>
 
@@ -88,29 +86,5 @@
     </footer>
 </body>
 
-<script>
-document.querySelector('a').addEventListener('click', function(e) {
-    e.preventDefault();
-  
-    var yourAge = prompt("Please enter your age: ")
-    
-    if (yourAge < 21) {
-      alert("Users under the age of 21 cannot access this page");
-      location.href = ("error");
-    }
-  
-    if (yourAge >= 21) {
-      alert("Enjoy!");
-      document.querySelector('.board').classList.add('showme');
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (xhttp.readyState == 4 && xhttp.status == 200) {        
-          document.getElementById("content").innerHTML = xhttp.responseText;
-        }
-      };
-      xhttp.open("GET", "index.html", true);
-      xhttp.send();
-    }
-  })
-</script>
+
 </html>
