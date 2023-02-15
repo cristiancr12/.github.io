@@ -23,21 +23,22 @@
         </div>
     </header>
     
+
     <section id="hacer-cita">
         <div class="container">
             <img src="Images/backgroundWhite2.PNG" width="100%">
-            <h1>Programa tu cita.</h1>
+            <h3>Programa tu cita</h3>
             <form action="https://facebook.com" target="_blank">
-                <button>HACER CITA.</button>
+                <button>HACER CITA!</button>
             </form>
         </div>
     </section>
 
     <section id="especial-de-tatuajes">
         <div class="container">
-            <h3>Disfruta de nuestros especiales de tatuajes pequenos a tan solos $60 dolares.</h3>
+            <h3>Disfruta de nuestros especiales de tatuajes pequenos a tan solos $60 dolares</h3>
             <form action= "Gallery.html" target="_blank">
-                 <button>Galeria de tatuajes pequenos.</button>
+                 <button>Galeria de tatuajes pequenos</button>
                  </frorm>
         </div>
     </section>
@@ -49,68 +50,53 @@
                 <div class="carta">
                     <h3><span class="color-acento">Black & Grey</span></h3>
                     <p>Dentro de los estilos de tatuajes que actualmente se demandan,<br> el black and grey 
-                        (negro y gris) es una especie de combinación de blackwork y acuarela.</p>
+                        (negro y gris) es una especie de combinación de blackwork y acuarela</p>
                         <button>Estilo</button>
                 </div>
                 <div class="carta">
                     <h3><span class="color-acento">Tradicional Japones</span></h3>
                     <p>En cuanto a las técnicas, el tatuaje tradicional japonés destaca por líneas sólidas
-                        con tonalidades verdes fuertes, grises planos y fondos negros y grises.</p>
+                        con tonalidades verdes fuertes, grises planos y fondos negros y grises</p>
                     <button>Estilo</button>
                 </div>
                 <div class="carta">
                     <h3><span class="color-acento">Estilo tribales</span></h3>
                     <p>Los tatuajes tribales tienen su origen en algunas tribus antiguas como los maoríes,
-                        los celtas o las tribus de la Polinesia, entre otras.</p>
+                        los celtas o las tribus de la Polinesia, entre otras</p>
                     <button>Estilo</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="caracteristicas">
+    
+    <section id="caracteristicas">
         <div class="container">
-            <ul>
-                <h3>*Caracteristicas*.</h3>
-                <il>✅100% Higiene.</il><br>
-                <il>✅Pagos Flexibles.</il><br>
-                <il>✅Original e Innovador.</il><br>
-                <il>✅Contextual en su tiempo.</il><br>
-            </ul>
-            <h6>Gracias por preferir a Malabare's Studio.</h6>
+            <h3>**Caracteristicas**</h3>
+            
+                <!-- <ul>
+                    <li>✅100% Higiene.</li>
+                    <li>✅Pagos Flexibles.</li>
+                    <li>✅Original e Innovador.</li>
+                    <li>✅Contextual en su tiempo.</li>
+                </ul> -->
+
+                <h3>✅100% Higiene</h3>
+                <h3>✅Pagos Flexibles</h3>
+                <h3>✅Original e Innovador</h3>
+                <h3>✅Contextual en su tiempo</h3>
+
+            <h6>Gracias por preferir a Malabare's Studio</h6>
+
         </div>
     </section>
                 
     <footer>
         <div class="container">
-        &copy; Malabare's Studio 2023.
-    </div>
+           <h6> &copy; Malabare's Studio 2023  </h6> 
+        </div>
     </footer>
 </body>
 
-<script>
-document.querySelector('a').addEventListener('click', function(e) {
-    e.preventDefault();
-  
-    var yourAge = prompt("Please enter your age: ")
-    
-    if (yourAge < 21) {
-      alert("Users under the age of 21 cannot access this page");
-      location.href = ("error");
-    }
-  
-    if (yourAge >= 21) {
-      alert("Enjoy!");
-      document.querySelector('.board').classList.add('showme');
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (xhttp.readyState == 4 && xhttp.status == 200) {        
-          document.getElementById("content").innerHTML = xhttp.responseText;
-        }
-      };
-      xhttp.open("GET", "index.html", true);
-      xhttp.send();
-    }
-  })
-</script>
+
 </html>
