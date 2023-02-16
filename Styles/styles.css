@@ -1,6 +1,7 @@
-/* header { } */
+header{
 
-/* nav{ } */
+}
+
 
 body{
   background-image: url("../Images/backgroundwallpaper.jpg");
@@ -10,7 +11,13 @@ body{
 }
 
 header p{
-  font-size: xx-large;
+  font-size: 2cm;
+  margin: 0%;
+}
+
+nav{
+  margin: 0%;
+  font-size: 0.9cm;
 }
 
 .container{
@@ -104,15 +111,23 @@ button:hover{
 }
 #nuestros-estilos h1{
   margin: 20px;
+  padding: 10px;
 }
+
+#nuestros-estilos h3{
+  background-color: black;
+  border-radius: 60%;
+  padding: 10px;
+  margin: 30px;
+}
+
 #nuestros-estilos p{
   color: whitesmoke;
+  background-color: black;
+  border-radius: 20px;
 }
 #nuestros-estilos{
-  /* background-color: rgb(30,30,30); */
-  border-radius: 90px;
-  background-color: transparent;
-  margin: 0px;
+  padding: 20px;
 }
 
 /* #nuestros-estilos .container{
@@ -123,10 +138,11 @@ button:hover{
 #nuestros-estilos .carta{
   background-position: center center;
   background-size: cover;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 100px;
+  padding: 0.3cm;
+  margin: 13%;
+  border-radius: 40%;
   text-align: center;
+
 }
 .carta:first-child{
   background-image: linear-gradient(
