@@ -28,9 +28,7 @@ body{
   background-position: center;
 }
 
-header{
-  
-}
+header{}
 
 
 header p{
@@ -117,35 +115,27 @@ button:hover{
 /* Nuestros Estilos */
 .color-acento{ color: red;
 }
-
 #nuestros-estilos h3{
   background-color: black;
   border-radius: 60%;
   padding: 10px;
-  margin: 30px;
+  margin: 10px;
 }
-
 #nuestros-estilos p{
   display: none;
   color: whitesmoke;
   background-color: black;
   border-radius: 20px;
 }
-
 #nuestros-estilos .container{
   max-width: 1400px;
   margin: auto;
 }
-
 #nuestros-estilos .carta{
-  background-position: center center;
-  background-size: cover;
-  padding: 20px;
-  margin: 50px;
-  border-radius: 100px;
   text-align: center;
 }
-.carta:first-child{
+
+/* .carta:first-child{ */
   background-image: linear-gradient(
     0deg,
     rgb(0,0,0,0.5),
@@ -153,7 +143,7 @@ button:hover{
   )
   ,url("../Images/Black&GreyNE1.jpg");
 }
-.carta:nth-child(2){
+/* .carta:nth-child(2){ */
   background-image: linear-gradient(
     0deg,
     rgb(0,0,0,0.5),
@@ -161,7 +151,7 @@ button:hover{
   )
   ,url("../Images/JapanesseNE2.JPG")
 }
-.carta:nth-child(3){
+/* .carta:nth-child(3){ */
   background-image: linear-gradient(
     0deg,
     rgb(0,0,0,0.5),
