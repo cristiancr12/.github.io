@@ -113,12 +113,12 @@ button:hover{
 }
 
 /* Nuestros Estilos */
-.color-acento{ color: red;
+.color-acento{ color: orangered;
 }
 #nuestros-estilos h3{
-  background-color: black;
-  border-radius: 60%;
-  padding: 10px;
+  /* background-color: black; */
+  /* border-radius: 10px; */
+  /* padding: 10px; */
   margin: 10px;
 }
 #nuestros-estilos p{
@@ -129,7 +129,7 @@ button:hover{
 }
 #nuestros-estilos .container{
   max-width: 1400px;
-  margin: auto;
+  margin: 10px;
 }
 #nuestros-estilos .carta{
   text-align: center;
