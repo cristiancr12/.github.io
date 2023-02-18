@@ -98,20 +98,6 @@ form {
   text-align: center;
 }
 
-
-/* #caracteristicas ul li{
-  display: inline-block;
-  }  */
-
-
-  /* #hacer-cita{
-    background-color: rgb(30,30,30);
-    border-radius: 90px;
-    background-color: transparent;
-    margin: 0px;
-  } */
-
-
 /* Button */
 button{
   font-size: 1em;
@@ -124,7 +110,6 @@ button{
   background-color: orangered;
   animation: glowing 1300ms infinite;
 }
-
 button:hover{
   background-color: rgb(177, 91, 82);
 }
@@ -133,14 +118,12 @@ button:hover{
 .color-acento{ color: red;
 }
 
-
 #nuestros-estilos h3{
   background-color: black;
   border-radius: 60%;
   padding: 10px;
   margin: 30px;
 }
-
 
 #nuestros-estilos p{
   display: none;
@@ -149,8 +132,8 @@ button:hover{
   border-radius: 20px;
 }
 
-
-/* #nuestros-estilos .container{ */
+#nuestros-estilos .container{
+  max-width: 1400px;
   margin: auto;
 }
 
