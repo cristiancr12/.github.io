@@ -64,15 +64,11 @@ nav{
 }
 
 /* Font Colors*/
-h1{color: white;}
-h2{color: white;}
 h3{color: white;}
 h4{color: white;}
-h5{color: white;}
 h6{color: white;}
-p{color: white;}
 footer{color: white;}
-ul{color: white;}
+
 
 /* Font Sizes */
 h1{ font-size: 3.5em;}
@@ -122,16 +118,11 @@ button:hover{
   margin: 10px;
 }
 #nuestros-estilos p{
-  display: none;
-  color: whitesmoke;
-  background-color: black;
-  border-radius: 20px;
+  color: black;
 }
 #nuestros-estilos .container{
   max-width: 1400px;
   margin: 10px;
-}
-#nuestros-estilos .carta{
   text-align: center;
 }
 
