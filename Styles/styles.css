@@ -21,15 +21,19 @@ a:active {
 }
 
 body{
-  background-image: url("../Images/backgroundwallpaper.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+  /* background-image: url("../Images/otrobackground.jpg"); */
+  /* background-attachment: fixed; */
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
+  background-color: black;
 }
 
-header{}
+/* header{} */
 
+.hacer-cita{
+  text-align: center;
+}
 
 header p{
   font-size: 2cm;
@@ -71,10 +75,9 @@ h2{ font-size: 2.5em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
 ul{
-   /* list-style: none; */
   text-align: center;
-
 }
+
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
@@ -85,6 +88,13 @@ p {text-align: center;}
 /* div {text-align: center;} */
 form {
   text-align: center;
+}
+
+#especial-de-tatuajes h2{
+}
+
+mark{
+  background-color: white;
 }
 
 /* Button */
@@ -104,7 +114,7 @@ button:hover{
 }
 
 /* Nuestros Estilos */
-.color-acento{ color: black;
+.color-acento{ color: white;
 }
 #nuestros-estilos h3{
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
@@ -112,39 +122,13 @@ button:hover{
   border-radius: 100%;
   margin: 10px;
 }
-#nuestros-estilos p{
-  color: black;
-}
+
 #nuestros-estilos .container{
   max-width: 1400px;
   margin: 10px;
   text-align: center;
 }
 
-/* .carta:first-child{ */
-  background-image: linear-gradient(
-    0deg,
-    rgb(0,0,0,0.5),
-    rgb(0,0,0,0.5)
-  )
-  ,url("../Images/Black&GreyNE1.jpg");
-}
-/* .carta:nth-child(2){ */
-  background-image: linear-gradient(
-    0deg,
-    rgb(0,0,0,0.5),
-    rgb(0,0,0,0.5)
-  )
-  ,url("../Images/JapanesseNE2.JPG")
-}
-/* .carta:nth-child(3){ */
-  background-image: linear-gradient(
-    0deg,
-    rgb(0,0,0,0.5),
-    rgb(0,0,0,0.5)
-  )
-  ,url("../Images/TribalNE3.JPG")
-}
 
 
 
