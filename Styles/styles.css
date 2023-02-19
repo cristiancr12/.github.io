@@ -90,8 +90,8 @@ form {
   text-align: center;
 }
 
-#especial-de-tatuajes h2{
-}
+/* #especial-de-tatuajes h2{
+} */
 
 mark{
   background-color: white;
@@ -123,11 +123,11 @@ button:hover{
   margin: 10px;
 }
 
-#nuestros-estilos .container{
+/* #nuestros-estilos .container{
   max-width: 1400px;
   margin: 10px;
   text-align: center;
-}
+} */
 
 
 
