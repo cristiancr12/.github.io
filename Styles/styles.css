@@ -11,7 +11,8 @@ body{
   
 }
 
-/* header{} */
+/* header{
+} */
 
 header p{
   font-size: 2cm;
@@ -19,8 +20,8 @@ header p{
 }
 
 nav{
+  font-size: 0.4cm;
   margin: 0%;
-  font-size: 0.9cm;
 }
 
 /* ////////// FONT COLORS ////////// */
@@ -103,12 +104,12 @@ button:hover{
 
 /* Button head */
 a:link {
-  color: blue;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: blueviolet;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
