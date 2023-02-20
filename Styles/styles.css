@@ -1,24 +1,16 @@
 /* ////////// BODY - HEADER - NAV /////////*/
-
 body{
-
   background-size: 100%;
   background-color: black;
   background-repeat: no-repeat;
-    /* background-image: url("../Images/otrobackground.jpg"); */
-  /* background-attachment: fixed; */
-  /* background-position: center; */
-  
 }
 
-/* header{
-} */
+header{}
 
 header p{
   font-size: 2cm;
   margin: 0%;
 }
-
 nav{
   font-size: 0.4cm;
   margin: 0%;
