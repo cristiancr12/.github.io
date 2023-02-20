@@ -1,3 +1,106 @@
+/* ////////// BODY - HEADER - NAV /////////*/
+
+body{
+
+  background-size: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+    /* background-image: url("../Images/otrobackground.jpg"); */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  
+}
+
+/* header{} */
+
+header p{
+  font-size: 2cm;
+  margin: 0%;
+}
+
+nav{
+  margin: 0%;
+  font-size: 0.9cm;
+}
+
+/* ////////// FONT COLORS ////////// */
+
+/* Font Colors*/
+h3{color: white;}
+h4{color: white;}
+h6{color: white;}
+footer{color: white;}
+
+/* Font Sizes */
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.5em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{
+  text-align: center;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+p {text-align: center;}
+/* div {text-align: center;} */
+
+/* ////////////// MISC. ///////////// */
+
+.grid-container {
+  gap: 100px;
+  display: grid ;
+  row-gap: 0px;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+mark{
+  background-color: white;
+}
+
+.hacer-cita{
+  text-align: center;
+}
+
+/* #especial-de-tatuajes h2{
+} */
+
+/* ////////// BUTTONS////////// */
+
+/* Button */
+button{
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: black;
+  background-color: orangered;
+  animation: glowing 1300ms infinite;
+}
+button:hover{
+  background-color: rgb(177, 91, 82);
+}
+
 /* Button head */
 a:link {
   color: blue;
@@ -20,98 +123,7 @@ a:active {
   /* text-decoration: underline; */
 }
 
-body{
-  /* background-image: url("../Images/otrobackground.jpg"); */
-  /* background-attachment: fixed; */
-  background-size: 100%;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  background-color: black;
-}
-
-/* header{} */
-
-.hacer-cita{
-  text-align: center;
-}
-
-header p{
-  font-size: 2cm;
-  margin: 0%;
-}
-
-nav{
-  margin: 0%;
-  font-size: 0.9cm;
-}
-
-.grid-container {
-  gap: 100px;
-  display: grid ;
-  row-gap: 0px;
-  grid-template-columns: auto auto auto;
-  background-color: transparent;
-  padding: 0px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid rgba(0, 0, 0, 0.8);
-  padding: 5px;
-  font-size: 30px;
-  text-align: center;
-}
-
-/* Font Colors*/
-h3{color: white;}
-h4{color: white;}
-h6{color: white;}
-footer{color: white;}
-
-
-/* Font Sizes */
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.5em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{
-  text-align: center;
-}
-
-h1 {text-align: center;}
-h2 {text-align: center;}
-h3 {text-align: center;}
-h4 {text-align: center;}
-h5 {text-align: center;}
-h6 {text-align: center;}
-p {text-align: center;}
-/* div {text-align: center;} */
-form {
-  text-align: center;
-}
-
-/* #especial-de-tatuajes h2{
-} */
-
-mark{
-  background-color: white;
-}
-
-/* Button */
-button{
-  font-size: 1em;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 50px;
-  border: 1px solid rgba(0,0,0,0.5);
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-  color: black;
-  background-color: orangered;
-  animation: glowing 1300ms infinite;
-}
-button:hover{
-  background-color: rgb(177, 91, 82);
-}
+/* ////////// Nuestros Estilo ////////// */
 
 /* Nuestros Estilos */
 .color-acento{ color: white;
@@ -128,6 +140,10 @@ button:hover{
   margin: 10px;
   text-align: center;
 } */
+
+/* //////////////MORE///////////////// */
+
+
 
 
 
