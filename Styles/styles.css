@@ -37,10 +37,8 @@ h1{ font-size: 3.5em;}
 h2{ font-size: 2.5em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
-ul{
-  text-align: center;
-}
 
+/* Font Alignment */
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
@@ -48,6 +46,9 @@ h4 {text-align: center;}
 h5 {text-align: center;}
 h6 {text-align: center;}
 p {text-align: center;}
+ul{
+  text-align: center;
+}
 /* div {text-align: center;} */
 
 /* ////////////// MISC. ///////////// */
