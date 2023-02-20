@@ -5,7 +5,6 @@
     <title>Malabares Studio</title>
     <link rel="stylesheet" href="Styles/styles.css">
     <link rel="icon" type="image/x-icon" href="Images/IconOfMalabare.ico">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
@@ -33,32 +32,11 @@
 
     <div class="container">
         <h2><mark>T-Shirts</mar></h2>
-            <img src="Images/Tshirt1.jpg" style="width:100%;cursor:pointer" 
-            onclick="onClick(this)" class="w3-hover-opacity">
-        
-        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-          <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-          <div class="w3-modal-content w3-animate-zoom">
-            <img id="img01" style="width:100%">
-          </div>
-        </div>
-        
+
         <div class="grid-container" style="width:100%">
-            <div class="grid-item">White
-                <img src="Images/Tshirt1.jpg" style="width:100%;cursor:pointer" 
-                 onclick="onClick(this)" class="w3-hover-opacity">
-            </div>
-
-            <div class="grid-item">Black
-                <img src="Images/Tshirt2.jpg" style="width:100%;cursor:pointer" 
-                onclick="onClick(this)" class="w3-hover-opacity">
-
-            </div>
-            <div class="grid-item">Color
-                <img src="Images/Tshirt3.jpg" style="width:100%;cursor:pointer" 
-                onclick="onClick(this)" class="w3-hover-opacity">
-            
-            </div>
+            <div class="grid-item">White<img src="Images/Tshirt1.jpg" style="width:100%"></div>
+            <div class="grid-item">Black<img src="Images/tshirt2.jpg" style="width:100%"></div>
+            <div class="grid-item">Color<img src="Images/tshirt3.jpg" style="width:100%"></div>
         
         </div>
     </div>
@@ -108,14 +86,6 @@
 </body>
 
 <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-
-
-<script>
-    function onClick(element) {
-      document.getElementById("img01").src = element.src;
-      document.getElementById("modal01").style.display = "block";
-    }
-    </script>
 
 <script>
   function initPayPalButton() {
