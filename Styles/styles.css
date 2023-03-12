@@ -1,9 +1,10 @@
 /* ////////// BODY - HEADER - NAV /////////*/
 body{
   background-size: 100%;
-  background-color: black;
+  background-color: white;
   background-repeat: no-repeat;
 }
+
 
 /* header{} */
 
@@ -19,17 +20,17 @@ nav{
 /* ////////// FONT COLORS ////////// */
 
 /* Font Colors*/
-h3{color: white;}
-h4{color: white;}
-h6{color: white;}
-footer{color: white;}
+h3{color: black;}
+h4{color: black;}
+h6{color: black;}
+p{ color: black;}
+footer{color: black;}
 
 /* Font Sizes */
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.5em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
-p{ color: white;}
 
 /* Font Alignment */
 h1 {text-align: center;}
