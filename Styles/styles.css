@@ -4,7 +4,6 @@ body{
   background-color: white;
   background-repeat: no-repeat;
 }
-
 /* header{} */
 header p{
   font-size: 2cm;
@@ -16,20 +15,16 @@ nav{
 }
 
 /* ////////// FONT COLORS ////////// */
-
-/* Font Colors*/
 h3{color: black;}
 h4{color: black;}
 h6{color: black;}
 p{ color: black;}
 footer{color: black;}
-
-/* Font Sizes */
+/* ////////// FONT SIZES ////////// */
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.5em;}
 h3{ font-size: 1.5em;}
 p{ font-size: 2em;}
-
 /* Font Alignment */
 h1 {text-align: center;}
 h2 {text-align: center;}
@@ -41,7 +36,6 @@ p {text-align: center;}
 ul {text-align: center;}
 
 /* ////////////// MISC. ///////////// */
-
 .grid-container {
   gap: 100px;
   display: grid ;
@@ -50,7 +44,6 @@ ul {text-align: center;}
   background-color: transparent;
   padding: 0px;
 }
-
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(0, 0, 0, 0.8);
@@ -58,23 +51,14 @@ ul {text-align: center;}
   font-size: 30px;
   text-align: center;
 }
-
 form {
   text-align: center;
 }
-
 mark{
   background-color: white;
 }
 
-.hacer-cita{
-  text-align: center;
-}
-
-
 /* ////////// BUTTONS////////// */
-
-/* Button */
 button{
   font-size: 1em;
   font-weight: bold;
