@@ -9,80 +9,59 @@
 </head>
 
 <body>
-
-    <header>
-        <div clas="container">
-            <p><a href="index.html">Malabares Studio</a></p>
-    </header>
-
-    <nav>
-        <h3><p>
-            <a href="Shop.html">Shop</a>
-            <a href="Gallery.html">Gallery</a>
-            <a href="Artists.html">Artists</a>
-            <a href="Policy.html">Policy</a>
-        </h3></p>
-    </nav>
-
-    <!-- <div class="container">
-        <center>
-            <h1><mark>SHOP</mar></h1>
-        </center>
-    </div> -->
-
-    <div class="container">
-        <h2><mark>T-Shirts</mar></h2>
-
-        <div class="grid-container" style="width:100%">
-            <div class="grid-item">White<img src="Images/Tshirt1.jpg" style="width:100%"></div>
-            <div class="grid-item">Black<img src="Images/tshirt2.jpg" style="width:100%"></div>
-            <div class="grid-item">Color<img src="Images/tshirt3.jpg" style="width:100%"></div>
-        
+  <header>
+    <div clas="container">
+      <p><a href="index.html">Malabares Studio</a></p>
+  </header>
+  
+  <nav>
+    <h3><p>
+      <a href="Shop.html">Shop</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Artists.html">Artists</a>
+      <a href="Policy.html">Policy</a>
+    </h3></p>
+  </nav>
+  
+  <div class="container">
+    <h2><mark>T-Shirts</mar></h2>
+      <div class="grid-container" style="width:100%">
+        <div class="grid-item">White<img src="Images/Tshirt1.jpg" style="width:100%"></div>
+        <div class="grid-item">Black<img src="Images/tshirt2.jpg" style="width:100%"></div>
+        <div class="grid-item">Color<img src="Images/tshirt3.jpg" style="width:100%"></div>
+      </div>
+  </div>
+  
+  <div class="container">
+    <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div style="margin-bottom: 1.25rem;">
+          <br></br>
+          <select id="item-options"><option value="White" price="40">White - 40 USD</option><option value="Black" price="40">Black - 40 USD</option><option value="Color" price="50">Color - 50 USD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
+  <div id="paypal-button-container"></div>
+      </div>
     </div>
-    
+  </div>
+
+  <section id="caracteristicas">
     <div class="container">
-        <div id="smart-button-container">
-            <div style="text-align: center;">
-              <div style="margin-bottom: 1.25rem;">
-                <br></br>
-                <select id="item-options"><option value="White" price="40">White - 40 USD</option><option value="Black" price="40">Black - 40 USD</option><option value="Color" price="50">Color - 50 USD</option></select>
-                <select style="visibility: hidden" id="quantitySelect"></select>
-              </div>
-            <div id="paypal-button-container"></div>
-            </div>
-          </div>
+      <h3>**Caracteristicas**</h3>
+      <h4>✅100% Higiene</h4>
+      <h4>✅Pagos Flexibles</h4>
+      <h4>✅Original e Innovador</h4>
+      <h4>✅Contextual en su tiempo</h4>
     </div>
- 
-    <!-- <div class="container">
-        <div class="hacer-cita">
-             <img src="Images/backgroundWhite2.PNG" width="100%">
-             <form action="https://www.instagram.com/mala_tattooer/" target="_blank">
-                 <button>Make Appointments</button>
-             </form>
-         </div>
-     </div> -->
+  </section>
 
-    <section id="caracteristicas">
-        <div class="container">
-            <h3>**Caracteristicas**</h3>
-            <h4>✅100% Higiene</h4>
-            <h4>✅Pagos Flexibles</h4>
-            <h4>✅Original e Innovador</h4>
-            <h4>✅Contextual en su tiempo</h4>
-        </div>
-    </section>
-
-    <footer>
-
-        <h6>Gracias por preferir a Malabare's Studio</h6>
-
-        <div class="container">
-           <h6> &copy; Malabare's Studio 2023  </h6> 
-        </div>
-
-    </footer>
-
+  <h6>Gracias por preferir a Malabare's Studio</h6>
+  
+  <footer>
+    <div class="container">
+      <h6> &copy; Malabare's Studio 2023  </h6> 
+    </div>
+  </footer>
 </body>
 
 <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
