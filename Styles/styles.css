@@ -53,8 +53,7 @@ form {
   text-align: center;
 }
 mark {
-  background-color: lightslategrey;
-  border-radius: 10px;
+  background-color: white;
 }
 
 /* ////////// BUTTONS////////// */
