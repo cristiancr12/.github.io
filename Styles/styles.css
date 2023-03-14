@@ -37,25 +37,24 @@ ul {text-align: center;}
 
 /* ////////////// MISC. ///////////// */
 .grid-container {
-  gap: 100px;
-  display: grid ;
-  row-gap: 0px;
+  display: grid;
   grid-template-columns: auto auto auto;
-  background-color: transparent;
-  padding: 0px;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid rgba(0, 0, 0, 0.8);
-  padding: 5px;
-  font-size: 30px;
+  border: 1px solid black;
   text-align: center;
+  font-size: 30px;
 }
 form {
   text-align: center;
 }
-mark{
-  background-color: white;
+mark {
+  background-color: lightslategrey;
+  border-radius: 10px;
 }
 
 /* ////////// BUTTONS////////// */
@@ -67,7 +66,7 @@ button{
   border: 1px solid rgba(0,0,0,0.5);
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
   color: black;
-  background-color: orangered;
+  background-color: #2196F3;
   animation: glowing 1300ms infinite;
 }
 button:hover{
