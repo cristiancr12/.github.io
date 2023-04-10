@@ -40,7 +40,7 @@ ul {text-align: center;}
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  background-color: lightslategray;
+  background-color: transparent;
   /* padding: 10px; */
 }
 .grid-item {
