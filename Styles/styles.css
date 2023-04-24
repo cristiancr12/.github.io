@@ -35,8 +35,42 @@ h6 {text-align: center;}
 p {text-align: center;}
 ul {text-align: center;}
 
+/*////////FONTS FAMILY//////////////*/
 .p1{
-  text-align: center;
+  font-family: 'courier new', monospace;
+  font-size: 15px;
+}
+.p2{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+.p3{
+  font-family: 'Courier New', monospace;
+ font-size: 15px;
+}
+.p4{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+.p5{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+.p6{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+.p7{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+.p8{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+.p9{
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
 }
 
 /* ////////////// MISC. ///////////// */
