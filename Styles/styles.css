@@ -4,8 +4,6 @@ body{
   background-color: white;
   background-repeat: no-repeat;
 }
-
-/* header{} */
 header p{
   font-size: 2cm;
   margin: 0%;
@@ -109,7 +107,7 @@ mark {
   background-color: lightslategray;
 }
 
-/* ////////// BUTTONS////////// */
+/* ////////// BUTTONS ////////// */
 button{
   font-size: 1em;
   font-weight: bold;
@@ -118,21 +116,21 @@ button{
   border: 1px solid rgba(0,0,0,0.5);
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
   color: black;
-  background-color: #2196F3;
+  background-color: lightseagreen;
   animation: glowing 1300ms infinite;
 }
 button:hover{
   background-color: rgb(177, 91, 82);
 }
 
-/* Button head */
+/*///////// BUTTON HEAD /////////*/
 a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: blue;
+  color: royalblue;
   background-color: transparent;
   text-decoration: none;
 }
@@ -146,11 +144,15 @@ a:active {
 }
 
 /* ////////// Nuestros Estilo ////////// */
-#nuestros-estilos h3{
+#nuestros-estilos {
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
   border: 1px solid rgba(0,0,0,0.5);
   border-radius: 100%;
-  margin: 10px;
+  margin: 150px;
+  padding: 5px;
 }
 
-/* //////////////MORE///////////////// */
+/* //////////////Small Tattoos///////////////// */
+#small-tattoo{
+  text-align: center;
+}
