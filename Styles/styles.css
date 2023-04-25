@@ -100,7 +100,7 @@ ul {text-align: center;}
   text-align: center;
   font-size: 30px;
 }
-/* form { */
+form {
   text-align: center;
 }
 mark {
@@ -153,6 +153,6 @@ a:active {
 }
 
 /* ////////////// SMALL TATTOOS ///////////////// */
-#small-tattoo{
+#small{
   text-align: center;
 }
