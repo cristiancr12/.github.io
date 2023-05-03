@@ -1,4 +1,4 @@
-/* ////////// BODY - HEADER - NAV /////////*/
+/*////////// BODY - HEADER - NAV /////////*/
 header p{
   font-size: 2cm;
   margin: 0%;
@@ -33,6 +33,7 @@ a:active {
   background-color: transparent;
 }
 
+/*////////// Malabares Logo /////////*/
 #malabareslogo{
   text-align: center;
 }
@@ -47,7 +48,7 @@ a:active {
   text-align: center;
 }
 
-/* ////////////// SMALL TATTOOS ///////////////// */
+/*////////////// SMALL TATTOOS /////////////////*/
 #smalltattoosale{
   text-align: center;
 }
